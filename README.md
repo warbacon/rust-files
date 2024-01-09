@@ -1,11 +1,13 @@
 # rust-files
 
+> [!WARNING]
+> This has only been tested on Linux, although it should also work on MacOS.
+
 Minimalistic file explorer developed with Tauri.
 
 ## Recommended IDE Setup
 
 [VS Code](https://code.visualstudio.com/) + [Svelte](https://marketplace.visualstudio.com/items?itemName=svelte.svelte-vscode) + [Tauri](https://marketplace.visualstudio.com/items?itemName=tauri-apps.tauri-vscode) + [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer).
-
 
 ## Development
 
