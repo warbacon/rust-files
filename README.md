@@ -6,7 +6,10 @@ Minimalistic file explorer developed with Tauri.
 
 [VS Code](https://code.visualstudio.com/) + [Svelte](https://marketplace.visualstudio.com/items?itemName=svelte.svelte-vscode) + [Tauri](https://marketplace.visualstudio.com/items?itemName=tauri-apps.tauri-vscode) + [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer).
 
+
 ## Development
+
+See <https://tauri.app/v1/guides/getting-started/prerequisites/> for the required dependencies.
 
 This project uses [pnpm](https://pnpm.io/).
 
@@ -22,7 +25,7 @@ This project uses [pnpm](https://pnpm.io/).
     pnpm tauri dev
     ```
 
-## Compiling
+### Compiling
 
 ```bash
 pnpm tauri build
