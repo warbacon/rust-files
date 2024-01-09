@@ -1,0 +1,41 @@
+@import '@fontsource-variable/martian-mono';
+
+:root {
+    --text-color: #cdd6f4;
+    --overlay0: #6c7086;
+    --surface0: #313244;
+    --base: #1e1e2e;
+    --crust: #11111b;
+    --mauve: #cba6f7;
+    --blue: #89b4fa;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+body {
+    font-family: "Martian Mono Variable", "Symbols Nerd Font";
+    color: var(--text-color);
+    background-color: var(--base);
+}
+
+::-webkit-scrollbar {
+    background: var(--crust);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--mauve);
+}
+
+button {
+    font-family: inherit;
+    color: inherit;
+    text-align: left;
+    background-color: transparent;
+}
