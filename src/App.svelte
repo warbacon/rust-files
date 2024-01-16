@@ -10,15 +10,15 @@
 
   document.addEventListener("keypress", (e) => {
     if (e.key == "h") {
-      showHidden = !showHidden
-      updateFileList(currentDir)
+      showHidden = !showHidden;
+      updateFileList(currentDir);
     }
-  })
+  });
 
   async function updateFileList(parentDir: string) {
     fileList = await invoke<string[]>("get_files", {
       parentDir,
-      showHidden
+      showHidden,
     });
   }
 
@@ -32,7 +32,6 @@
       open(currentDir + selectedFile);
       return;
     }
-
 
     if (selectedFile == "../") {
       let lastSlashIndex = currentDir.lastIndexOf("/", currentDir.length - 2);
@@ -55,7 +54,7 @@
     >
   {/each}
 </main>
-<Bar currentDir={currentDir} showHidden={showHidden} />
+<Bar {currentDir} {showHidden} />
 
 <style>
   :global(#bar) {

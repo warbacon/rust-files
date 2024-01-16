@@ -1,6 +1,6 @@
 <script lang="ts">
     export let currentDir: string = "ERROR: no path assigned";
-    export let showHidden: boolean= false;
+    export let showHidden: boolean = false;
 </script>
 
 <div id="bar">
