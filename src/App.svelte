@@ -5,7 +5,7 @@
   import Bar from "./lib/Bar.svelte";
 
   let currentDir: string = "";
-  let fileList = ["../", "hola/", "pene.exe", "ajsdj.pdf"];
+  let fileList: string[] = []
   let showHidden = false;
 
   document.addEventListener("keypress", (e) => {
